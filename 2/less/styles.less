@@ -48,6 +48,7 @@ header a{
     .header-middle-line-logo, .header-middle-line-cart{
         display: inline-block;
         box-sizing: border-box;
+        width: 30%;
         figcaption{
             float: right;
             //vertical-align: middle;
@@ -56,14 +57,19 @@ header a{
             }
         };
     };
+    .header-middle-line-cart{
+        text-align: right;
+    }
     .header-middle-line-logo{
         figcaption{
             padding: 10px 0;
         }
     }
     .header-middle-line-search{
+        overflow: hidden;
         display: inline-block;
         box-sizing: border-box;
+        width: 30%;
         input{
             background-color: @clr_hell_grey;
         }
