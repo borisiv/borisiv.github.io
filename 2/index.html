@@ -5,44 +5,30 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css"/>
-    <script src="libs/jquery-3.1.1.min.js"></script>
-    <script src="libs/owl.carousel/owl.carousel.min.js"></script>
-    <script src="js/common.js"></script>
+    <script type="text/javascript" src="libs/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
     <title>Document</title>
 </head>
 <body>
 
 <header>
     <div class="wrapper">
-        <div class="header-top-line clearfix">
-            <div class="header-top-line-login">
-                <a href="#">
-                    <img src="img/login.png" alt="login icon">
-                    <span>ВХОД / РЕГИСТРАЦИЯ</span>
-                </a>
-            </div>
+        <div class="header-top-line clearfix wrap-pad">
+            <a href="#" class="header-top-line-login">
+                <img src="img/login.png" alt="login icon">
+                <span>вход / регистрация</span>
+            </a>
             <div class="header-top-line-social">
                 <a href="#"><img src="img/fb.png" alt="fb"></a>
                 <a href="#"><img src="img/vk.png" alt="vk"></a>
                 <a href="#"><img src="img/twitter.png" alt="twitter"></a>
             </div>
         </div>
-        <div class="header-middle-line">
-            <figure class="header-middle-line-logo clearfix">
-                <figcaption>
-                    <h1>NALABUTEN.AH</h1>
-                    <p>unrealizable dreams</p>
-                </figcaption>
-                <img src="img/mini_logo.png" alt="logo Shoes">
-            </figure>
-            <div class="header-middle-line-search">
-                <input type="text" name="in-search" placeholder="Поиск">
-                <button><img src="img/search-icon-white.png" alt="search"></button>
-            </div>
-
+        <div class="header-top-underline"></div>
+        <div class="header-middle-line clearfix wrap-pad">
             <a class="header-middle-line-cart" href="#">
                 <figure class="clearfix">
                     <img src="img/cart_icon.png" alt="cart">
@@ -52,6 +38,17 @@
                     </figcaption>
                 </figure>
             </a>
+            <figure class="header-middle-line-logo clearfix">
+                <img src="img/mini_logo.png" alt="logo Shoes">
+                <figcaption>
+                    <h1>NALABUTEN.AH</h1>
+                    <p>unrealizable dreams</p>
+                </figcaption>
+            </figure>
+            <form action="#" class="header-middle-line-search">
+                <input type="text" name="in-search" placeholder="поиск">
+                <button><img src="img/search-icon-white.png" alt="search"></button>
+            </form>
         </div>
         <!--<editor-fold desc="Navigation bar">-->
         <div class="header-bottom-line">
@@ -69,53 +66,227 @@
 </header>
 
 <main>
-    <div class="wrapper">
-        <div class="owl-carousel owl-theme">
+    <div class="wrapper wrap-pad">
+        <section class="main-slider">
             <div class="main-slider-item">
                 <img src="img/products/1.jpg" alt="Shoes#1">
             </div>
             <div class="main-slider-item">
                 <img src="img/products/2.jpg" alt="Shoes#2">
             </div>
-        </div>
+        </section>
         <section class="main-sales">
             <a href="#"><img src="img/sale_item.png" alt="10% скидка"></a>
             <a href="#"><img src="img/sale_item.png" alt="10% скидка"></a>
             <a href="#"><img src="img/sale_item.png" alt="10% скидка"></a>
+        </section>
+        <section class="main-catalog">
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/1.jpg" alt="Shoes 01">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/2.jpg" alt="Shoes 02">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/3.jpg" alt="Shoes 03">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/5.jpg" alt="Shoes 05">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/6.jpg" alt="Shoes 05">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/7.jpg" alt="Shoes 07">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/8.jpg" alt="Shoes 08">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <figure>
+                    <img src="img/products/9.jpg" alt="Shoes 09">
+                    <figcaption>
+                        <h3>Labuten cherry</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="catalog-item-price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="catalog-item-actions">
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="catalog-item-action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+
         </section>
     </div>
 </main>
 
 <footer>
     <div class="wrapper">
-        <nav class="footer-menu">
-            <h2>Меню</h2>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
+        <nav>
+            <ul>
+                <li>
+                    <h2>Меню</h2>
+                    <ul class="footer-menu">
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Каталог</h2>
+                    <ul class="footer-catalog">
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Блог</h2>
+                    <ul class="footer-blog">
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                        <li><a href="#">Какая-то ссылка</a></li>
+                    </ul>
+                </li>
+                <li class="footer-contacts">
+                    <h2>Контакты</h2>
+                    <div class="footer-social">
+                        <a href="#"><img src="img/fb.png" alt="fb"></a>
+                        <a href="#"><img src="img/vk.png" alt="vk"></a>
+                        <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                    </div>
+                    <address>
+                        <div class="contacts-phone">+7(915)458-75-65</div>
+                        <div class="contacts-phone">+7(915)458-75-65</div>
+                    </address>
+                </li>
+            </ul>
         </nav>
-        <nav class="footer-catalog">
-            <h2>Каталог</h2>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-        </nav>
-        <nav class="footer-blog">
-            <h2>Блог</h2>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-            <a href="#">Какая-то ссылка</a>
-        </nav>
-        <address class="footer-contacts">
-            <h2>Контакты</h2>
-
-        </address>
+        <div class="footer-copyr">nalabuten.ah 2016</div>
     </div>
 </footer>
 </body>
