@@ -9,6 +9,10 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+.header-top-icon{
+    fill: @clr_grey;
+    //width: 50px;
+}
 figure{
     margin: 0;
 }
@@ -49,7 +53,11 @@ header a{
 }
 .header-top-line-social{
     a{
+        display: inline-block;
         padding: 0 5px;
+        img{
+            max-width: 100%;
+        }
     }
 }
 .header-top-line-login{
@@ -194,6 +202,7 @@ header a{
     margin: 15px 0;
     width: ~"calc(25% - 4px)";
     position: relative;
+    overflow: hidden;
 
     figure{
         display: inline-block;
@@ -202,15 +211,6 @@ header a{
         margin: 0;
         border: solid @clr_hell_grey 1px;
         overflow: hidden;
-        min-height: 300px;
-        vertical-align: top;
-        img{
-            max-width: 100%;
-            display: block;
-            box-sizing: border-box;
-            height: auto;
-            padding: 2%;
-        }
         figcaption{
             margin: 0;
             padding-top: 40px;
@@ -234,6 +234,22 @@ header a{
         right: 0;
         z-index: 10;
     }
+}
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+}
+.img-wrapper img{
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .catalog-item-action {
     box-sizing: border-box;
