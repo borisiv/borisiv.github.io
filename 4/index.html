@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="../libs/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../libs/plugins/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../libs/plugins/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../libs/plugins/slick/slick-theme.css"/>
+    <script type="text/javascript" src="js/common.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+        <!--<svg  viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">-->
+        <!--<use xlink:href="img/icons/twitter.svg#icotwit"></use>-->
+        <!--</svg>-->
+        <div class="header__top-line wrap-pad">
+            <div class="header__top-line__social">
+                <a href="#"><img src="img/icons/twitter.svg"/></a>
+                <a href="#"><img src="img/icons/twitter.svg"/></a>
+                <a href="#"><img src="img/icons/twitter.svg"/></a>
+            </div>
+            <a href="#" class="header__top-line__login">
+                <img src="img/login.png" alt="login icon">
+                <span>вход / регистрация</span>
+            </a>
+        </div>
+        <div class="header__top-underline"></div>
+        <div class="header__middle-line wrap-pad">
+            <a class="header__middle-line__logo" href="#">
+                <figure>
+                    <img src="img/mini_logo.png" alt="logo RogiKop">
+                    <figcaption>
+                        <h1>Рога и копыта</h1>
+                        <p>воплощая мечты </p>
+                    </figcaption>
+                </figure>
+            </a>
+            <form action="#" class="header__middle-line__search">
+                <input type="text" name="in-search" placeholder="поиск">
+                <button><img src="img/search-icon-white.png" alt="search"></button>
+            </form>
+            <a class="header__middle-line__cart" href="#">
+                <figure>
+                    <img src="img/cart_icon.png" alt="cart">
+                    <figcaption>
+                        <h3>КОРЗИНА</h3>
+                        <p>покупок: <span class="header__middle-line__cart__qty">0</span></p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+        <!--<editor-fold desc="Navigation bar">-->
+        <div class="header__bottom-line">
+            <nav>
+                <a href="#">КОПЫТАЛОГ</a>
+                <a href="#">РОГААКЦИИ</a>
+                <a href="#">О НАС</a>
+                <a href="#">БЛОРОГ</a>
+            </nav>
+        </div>
+        <!--</editor-fold>-->
+    </div>
+</header>
+
+<main>
+    <div class="wrapper wrap-pad">
+        <section class="main__slider single-item">
+            <figure class="main__slider__slider-item">
+                <img src="img/products/1.jpg" alt="RogiKop#1">
+            </figure>
+            <figure class="main__slider__slider-item">
+                <img src="img/products/2.jpg" alt="RogiKop#2">
+            </figure>
+            <figure class="main__slider__slider-item">
+                <img src="img/products/3.jpg" alt="RogiKop#3">
+            </figure>
+        </section>
+        <section class="main__sales">
+            <a class="main__sales__sale-item" href="#"><img src="img/sale_item.png" alt="10% скидка"></a>
+            <a class="main__sales__sale-item" href="#"><img src="img/sale_item.png" alt="10% скидка"></a>
+            <a class="main__sales__sale-item" href="#"><img src="img/sale_item.png" alt="10% скидка"></a>
+        </section>
+
+        <section class="main__catalog">
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/1.jpg" alt="RogiKop 01">
+                    </div>
+                    <figcaption>
+                        <h3>Рога Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/2.jpg" alt="RogiKop 02">
+                    </div>
+                    <figcaption>
+                        <h3>Рога Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/3.jpg" alt="RogiKop 03">
+                    </div>
+                    <figcaption>
+                        <h3>Рога Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/4.jpg" alt="RogiKop 04">
+                    </div>
+                    <figcaption>
+                        <h3>Рога Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/5.jpg" alt="RogiKop 05">
+                    </div>
+                    <figcaption>
+                        <h3>Копыта Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/6.jpg" alt="RogiKop 06">
+                    </div>
+                    <figcaption>
+                        <h3>Копыта Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/7.jpg" alt="RogiKop 07">
+                    </div>
+                    <figcaption>
+                        <h3>Копыта Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+            <div class="main__catalog__catalog-item">
+                <figure>
+                    <div class="img-wrapper">
+                        <img src="img/products/8.jpg" alt="RogiKop 08">
+                    </div>
+                    <figcaption>
+                        <h3>Копыта Luxury</h3>
+                        <p>Супер-ультра модная модель</p>
+                        <p>носить не сносить</p>
+                        <p class="main__catalog__catalog-item__price">$7000</p>
+                    </figcaption>
+                </figure>
+                <div class="main__catalog__catalog-item__actions">
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/cart_icon.png" alt="Add to cart">
+                    </a>
+                    <a class="main__catalog__catalog-item__actions__action" href="#">
+                        <img src="img/info.png" alt="About">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="wrapper">
+        <nav class="footer__nav wrap-pad">
+            <div class="footer__nav__item">
+                <h3>Меню</h3>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+            </div>
+            <div class="footer__nav__item">
+                <h3>Копыталог</h3>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+            </div>
+            <div class="footer__nav__item">
+                <h3>БлоРог</h3>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+                <a href="#">Какая-то ссылка</a>
+            </div>
+            <div class="footer__nav__item">
+                <h3>Контакты</h3>
+                <div class="footer__social">
+                    <a href="#"><img src="img/icons/twitter.svg" alt="fb"></a>
+                    <a href="#"><img src="img/icons/twitter.svg" alt="vk"></a>
+                    <a href="#"><img src="img/icons/twitter.svg" alt="twitter"></a>
+                </div>
+                <address class="footer__nav__item__phone">+7(915)458-75-65</address>
+                <address class="footer__nav__item__phone">+7(915)458-75-65</address>
+            </div>
+        </nav>
+        <div class="footer__copyr">rogi.kop 2016</div>
+    </div>
+</footer>
+</body>
+</html>
