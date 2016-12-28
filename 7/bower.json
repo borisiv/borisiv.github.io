@@ -1,0 +1,17 @@
+{
+  "name": "less7.loc",
+  "homepage": "index.html",
+  "authors": [
+    "Boris <vboris@gmail.com>"
+  ],
+  "description": "Lesson7",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
